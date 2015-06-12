@@ -1,0 +1,16 @@
+development:
+  database: <%= ENV['DATABASE_NAME'] %>
+  adapter: 'postgresql'
+  encoding: 'utf8'
+
+test:
+  database: <%= ENV['DATABASE_NAME'] %>
+  adapter: 'postgresql'
+  encoding: 'utf8'
+
+production:
+  adapter: postgresql
+  url:  <%= ENV["DATABASE_URL"] %>
+  pool: <%= ENV["DB_POOL"] || ENV['MAX_THREADS'] || 5 %>
+  reaping_frequency: 10 # in seconds
+  encoding: 'unicode'
