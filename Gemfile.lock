@@ -19,6 +19,7 @@ GEM
     builder (3.2.2)
     celluloid (0.16.0)
       timers (~> 4.0.0)
+    envyable (0.2.0)
     ffi (1.9.8)
     hitimes (1.2.2)
     i18n (0.7.0)
@@ -66,6 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  envyable
   pg
   rerun
   sinatra

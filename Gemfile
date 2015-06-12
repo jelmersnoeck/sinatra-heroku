@@ -12,3 +12,8 @@ gem 'pg'
 group :development do
   gem 'rerun'
 end
+
+group :development, :test do
+  gem 'envyable'
+end
+
