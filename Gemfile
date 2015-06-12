@@ -17,3 +17,7 @@ group :development, :test do
   gem 'envyable'
 end
 
+group :test do
+  gem 'rspec'
+end
+
