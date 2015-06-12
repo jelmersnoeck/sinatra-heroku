@@ -1,5 +1,5 @@
 class MyApp < Sinatra::Base
   get '/' do
-    ActiveRecord::Base.connection.current_database
+    'Hello world!'
   end
 end

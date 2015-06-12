@@ -1,0 +1,6 @@
+# Only set the items here that you want to make available in the application
+# through the `settings` wrapper.
+#
+# Good practice is to use ENV for keys (env.yml in development)
+#
+# SETTTING: <%= ENV['ENV_NAME'] %>
